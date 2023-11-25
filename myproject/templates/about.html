@@ -1,3 +1,31 @@
 {% extends "base.html" %}
+  
 {% block title %}About us{% endblock title %}
-{% block body %}This is About Us Page{% endblock body %}
+{% block body %}
+
+<div class="container mt-4">
+    <div class="row">
+      <div class="col mx-lg-3" style="height: 80vh;flex-wrap: wrap;display: flex;justify-content: center;align-items: center; align-self: center; flex-direction: column;">
+
+        <h4>Owener</h4>
+        <h2>Manohar Vitthal Mali</h2>
+        <h5>Experience 8+ years in hotel And Catering</h5>
+        <p style="text-align: justify;text-justify: inter-word;" class="mt-4">Experience divine flavors with Lord Krishna Catering – where quality meets affordability! Our culinary creations are crafted with passion and precision, ensuring an exquisite dining experience for every occasion. Indulge in a feast of delectable dishes that reflect the richness of tradition and the essence of Krishna's blessings. With rates that are as pleasing as our dishes, we make your celebrations truly special. Choose Lord Krishna Catering for an affordable yet top-notch culinary journey that leaves your taste buds enchanted.</p>
+        <div class="icon flex-wrap"  style=" display: flex;justify-content: center;align-items: center; list-style: none;gap: 50px;font-size: 30px;flex-wrap: wrap;">
+        
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="tel:8262022988"><i class="fa fa-phone"></i></a></li>
+        
+      </div>
+      </div>
+      <div class="col" style="height: 80vh;object-fit:fill; display: flex;justify-content: center;align-items: center;">
+        <img src="/static/imges/owner.jpg" alt="" height="80%" width="390px">
+      </div>
+
+      
+      
+    </div>
+  </div>
+
+{% endblock body %}

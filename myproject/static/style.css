@@ -1,0 +1,29 @@
+
+h3{
+    color: blue;
+}
+.About_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: relative;
+}
+.About_container .About_box1 {
+    height: 50%;
+    width: 50%;
+    background-color: aqua;
+}
+.About_container .About_box2 {
+    background-color: red;
+    height: 50%;
+    width: 50%;
+}
+.About_container .About_box2 img{
+    height: 50%;
+    width: 50%;
+}
+
+
+
